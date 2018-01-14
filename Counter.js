@@ -14,12 +14,12 @@ const Counter = ({ value, onIncrement, onDecrement }) =>
         <div>
           Clicked: {value} times
         </div>
-      </div>
+      </div>;
 
 Counter.propTypes = {
   value: PropTypes.number.isRequired,
   onIncrement: PropTypes.func.isRequired,
   onDecrement: PropTypes.func.isRequired
-}
+};
 
 export default Counter
